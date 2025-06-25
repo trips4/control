@@ -1,5 +1,11 @@
 forge 'https://forge.puppet.com'
 mod 'puppetlabs-chocolatey', '8.0.2'
+mod 'puppetlabs-stdlib', '9.7.0'
+mod 'puppetlabs-powershell', '6.0.2'
+mod 'puppetlabs-registry', '5.0.3'
+mod 'puppetlabs-ruby_task_helper', '1.0.0'
+
+
 # Modules from the Puppet Forge
 # Versions should be updated to be the latest at the time you start
 #mod 'puppetlabs/inifile', '5.0.1'
