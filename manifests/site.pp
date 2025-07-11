@@ -28,11 +28,11 @@ node default {
   # This is where you can declare classes for all nodes.
   # Example:
   #   class { 'my_class': }
-  if $trusted['extensions']['role'] == 'web' {
-    include webserver
-  } elsif $trusted['extensions']['role'] == 'db' {
-    include database
-  } else {
-    include default_service
-  }
+  # if $trusted['extensions']['role'] == 'web' {
+  #   include webserver
+  # } elsif $trusted['extensions']['role'] == 'db' {
+  #   include database
+  # } else {
+  #   include default_service
+  # }
 }
