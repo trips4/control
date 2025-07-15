@@ -1,12 +1,17 @@
 forge 'https://forge.puppet.com'
-mod 'puppetlabs-chocolatey',       '8.0.2'
-mod 'puppetlabs-stdlib',           '9.7.0'
-mod 'puppetlabs-powershell',      '6.0.2'
+mod 'puppetlabs-chocolatey',                    '8.0.2'
+mod 'puppetlabs-stdlib',                        '9.7.0'
+mod 'puppetlabs-powershell',                    '6.0.2'
 mod 'puppetlabs-puppet_operational_dashboards', '2.4.0'
-# mod 'puppetlabs-powershell',       '2.1.5'
-mod 'puppetlabs-registry',         '5.0.3'
-# mod 'puppetlabs-ruby_task_helper', '1.0.0'
-# mod 'puppetlabs-puppet_agent',     '4.24.0'
+mod 'puppetlabs-registry',                      '5.0.3'
+mod 'puppetlabs-influxdb',                      '2.4.0'
+mod 'puppet-grafana',                           '14.1.0'
+mod 'puppet-telegraf',                          '6.0.0'
+mod 'puppetlabs-apt',                           '10.0.0'
+mod 'puppetlabs-inifile',                       '6.2.0'
+mod 'puppet-archive',                           '8.0.0'
+
+
 
 
 # Modules from the Puppet Forge
