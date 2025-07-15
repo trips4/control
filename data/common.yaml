@@ -1,3 +1,2 @@
 ---
-puppet_operational_dashboards:
-  template_format: 'yaml'
+puppet_operational_dashboards::template_format: 'yaml'
