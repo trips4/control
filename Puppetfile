@@ -11,6 +11,7 @@ mod 'puppet-telegraf',                          '5.4.0'
 mod 'puppetlabs-apt',                           '9.4.0'
 mod 'puppetlabs-inifile',                       '6.2.0'
 mod 'puppet-archive',                           '7.1.0'
+mod 'puppetlabs-comply',                        '3.5.0'
 
 
 

@@ -1,0 +1,44 @@
+## Local host configuration for Puppet targets
+---
+targets:
+  - name: security-compliance-management
+    uri: localhost
+    config:
+      transport: local
+  - name: puppet-enterprise
+    uri: lab4-prim01.triplo.psedemos.com
+    config:
+      transport: ssh
+      ssh:
+        user: ubuntu
+        private-key: ./key.pem
+        run-as: root
+        host-key-check: false
+        native-ssh: true
+        ssh-command: /usr/bin/ssh
+
+## Remote host configuration for Puppet targets
+# targets: 
+#   - name: security-compliance-management 
+#     uri: lab4-scm01.triplo.psedemos.com 
+#     config:
+#       transport: ssh 
+#       ssh: 
+#         user: ubuntu
+#         private-key: "C:/Users/dennis.triplo/OneDrive - PERFORCE SOFTWARE, INC/Documents/ssh keys/aws_lab/convexportkey.pem"
+
+#         run-as: root 
+#         host-key-check: false        
+#         native-ssh: true
+#         ssh-command: C:/Windows/System32/OpenSSH/ssh.exe
+#   - name: puppet-enterprise 
+#     uri: lab4-prim01.triplo.psedemos.com 
+#     config: 
+#       transport: ssh 
+#       ssh: 
+#         user: ubuntu 
+#         private-key: "C:/Users/dennis.triplo/OneDrive - PERFORCE SOFTWARE, INC/Documents/ssh keys/aws_lab/convexportkey.pem"
+#         run-as: root 
+#         host-key-check: false
+#         native-ssh: true
+#         ssh-command: C:/Windows/System32/OpenSSH/ssh.exe
