@@ -1,0 +1,10 @@
+---
+name: comply
+modules:
+- name: puppetlabs/complyadm
+  version_requirement: 3.5.0
+
+module-install:
+  forge:
+     authorization_token: '91aa31060b4dfb8dac282f7545acdb5facf00af25dfe694c71e10fdeaa23760b'
+     baseurl: https://forgeapi.puppet.com
