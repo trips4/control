@@ -6,6 +6,6 @@
 #   include role::web_host
 class role::web_host {
   class { 'webserver':
-    http_port => 9000,
+    http_port => '9000',
   }
 }
