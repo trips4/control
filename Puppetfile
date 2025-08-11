@@ -16,4 +16,4 @@ mod 'puppetlabs-comply',                        '3.5.0'
 
 mod 'webserver',
   :git => 'https://github.com/trips4/webserver.git',
-  :branch => 'bugfix_module'
+  :branch => 'bugfix_module' 
