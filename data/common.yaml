@@ -8,3 +8,10 @@ puppet_operational_dashboards::template_format: 'yaml'
 #puppet_enterprise::profile::master::r10k_remote: 'https://mygit.triplo.psedemos.com/trips4/control.git'
 #puppet_enterprise::profile::master::replication_mode: 'none'
 
+
+puppet_enterprise::master::code_manager::git_settings:
+  provider: "rugged"
+  repositories:
+    - remote: "https://mygit.triplo.psedemos.com/trips4/control"
+      oauth_token: "/etc/puppetlabs/puppet/codetoken"
+
